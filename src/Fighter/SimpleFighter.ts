@@ -4,7 +4,7 @@ interface SimpleFighter {
 
   attack(enemy: SimpleFighter): void;
 
-  receiveDamage(atackPoints: number): number;
+  receiveDamage(attackPoints: number): number;
 
 }
 
