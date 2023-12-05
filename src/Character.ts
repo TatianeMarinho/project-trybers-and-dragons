@@ -52,7 +52,7 @@ class Character implements Fighter {
   }
 
   get dexterity(): number {
-    return this._defense;
+    return this._dexterity;
   }
 
   get energy(): Energy {
